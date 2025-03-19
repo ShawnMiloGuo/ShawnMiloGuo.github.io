@@ -1,7 +1,6 @@
 ---
 layout: page
 title: cv
-permalink: /cv/
 description: mycv
 redirect: /CVM/index.html
 nav: true
