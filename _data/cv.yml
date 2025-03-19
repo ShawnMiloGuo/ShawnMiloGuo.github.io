@@ -8,7 +8,7 @@
     - name: 
       value: 中国科学院深圳先进技术研究院-先进计算与数字工程研究所-空间信息研究中心
     - name: 联系方式
-      value: Email: sx.guo@siat.ac.cn
+      value: sx.guo@siat.ac.cn
 
 - title: 研究兴趣
   type: nested_list
@@ -16,8 +16,6 @@
     - title: 面向模型跨域泛化和效率的深度神经网络遥感解译
     - title: 基于状态光谱特征空间的空间推理
     - title: 多尺度遥感数据时空融合
-
-
 
 - title: 教育经历
   type: time_table
