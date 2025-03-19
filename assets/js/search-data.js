@@ -83,39 +83,6 @@ ninja.data = [{
           window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
         
       },
-    },{id: "post-面向地表温度跨尺度融合的动态神经网络",
-      
-        title: "面向地表温度跨尺度融合的动态神经网络",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/IUSTFM/";
-        
-      },
-    },{id: "post-基于解混策略的时空融合模型稳定性分析-以地表温度为例",
-      
-        title: "基于解混策略的时空融合模型稳定性分析—以地表温度为例",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/USTFM-LST/";
-        
-      },
-    },{id: "post-使用级联多级检测器的多分辨率遥感图像的高质量目标检测",
-      
-        title: "使用级联多级检测器的多分辨率遥感图像的高质量目标检测",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/HQODMRSI-CMD/";
-        
-      },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
       
         title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -127,39 +94,6 @@ ninja.data = [{
           window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
         
       },
-    },{id: "post-快速评估监督学习中常用遥感分类算法的时间效率",
-      
-        title: "快速评估监督学习中常用遥感分类算法的时间效率",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/FPTC/";
-        
-      },
-    },{id: "post-基于光学微波特征融合的新疆典型经济作物提取",
-      
-        title: "基于光学微波特征融合的新疆典型经济作物提取",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/SAR-OPT/";
-        
-      },
-    },{id: "post-对抗样本噪声的遥感深度学习分类网络模型",
-      
-        title: "对抗样本噪声的遥感深度学习分类网络模型",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/WLN/";
-        
-      },
     },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
       
         title: "基于HRU-Net的中高分辨率地表要素提取模型",
@@ -171,31 +105,9 @@ ninja.data = [{
           window.location.href = "/blog/2022/HRUNET/";
         
       },
-    },{id: "post-基于对抗神经网络isrgan的多源遥感数据融合与超分辨模型",
+    },{id: "post-hocpd",
       
-        title: "基于对抗神经网络ISRGAN的多源遥感数据融合与超分辨模型",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/SRGAN/";
-        
-      },
-    },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
-      
-        title: "基于HRU-Net的中高分辨率地表要素提取模型",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/HRUNET/";
-        
-      },
-    },{id: "post-基于时空混合的modis产品降尺度模型-以海表叶绿素为例",
-      
-        title: "基于时空混合的MODIS产品降尺度模型-以海表叶绿素为例",
+        title: "Hocpd",
       
       description: "",
       section: "Posts",
@@ -204,9 +116,97 @@ ninja.data = [{
           window.location.href = "/blog/2018/HOCPD/";
         
       },
-    },{id: "post-统一不同蒸发条件下的土壤反馈模式以改善平坦地区的土壤分化",
+    },{id: "post-面向地表温度跨尺度融合的动态神经网络",
       
-        title: "统一不同蒸发条件下的土壤反馈模式以改善平坦地区的土壤分化",
+        title: "面向地表温度跨尺度融合的动态神经网络",
+      
+      description: "蒸散空间下的土壤特征空间构建",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2016/IUSTFM/";
+        
+      },
+    },{id: "post-基于解混策略的时空融合模型稳定性分析-以地表温度为例",
+      
+        title: "基于解混策略的时空融合模型稳定性分析—以地表温度为例",
+      
+      description: "蒸散空间下的土壤特征空间构建",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2016/USTFM-LST/";
+        
+      },
+    },{id: "post-使用级联多级检测器的多分辨率遥感图像的高质量目标检测",
+      
+        title: "使用级联多级检测器的多分辨率遥感图像的高质量目标检测",
+      
+      description: "蒸散空间下的土壤特征空间构建",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2016/HQODMRSI-CMD/";
+        
+      },
+    },{id: "post-快速评估监督学习中常用遥感分类算法的时间效率",
+      
+        title: "快速评估监督学习中常用遥感分类算法的时间效率",
+      
+      description: "蒸散空间下的土壤特征空间构建",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2016/FPTC/";
+        
+      },
+    },{id: "post-基于光学微波特征融合的新疆典型经济作物提取",
+      
+        title: "基于光学微波特征融合的新疆典型经济作物提取",
+      
+      description: "蒸散空间下的土壤特征空间构建",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2016/SAR-OPT/";
+        
+      },
+    },{id: "post-对抗样本噪声的遥感深度学习分类网络模型",
+      
+        title: "对抗样本噪声的遥感深度学习分类网络模型",
+      
+      description: "蒸散空间下的土壤特征空间构建",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2016/WLN/";
+        
+      },
+    },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
+      
+        title: "基于HRU-Net的中高分辨率地表要素提取模型",
+      
+      description: "蒸散空间下的土壤特征空间构建",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2016/HRUNET/";
+        
+      },
+    },{id: "post-基于对抗神经网络isrgan的多源遥感数据融合与超分辨模型",
+      
+        title: "基于对抗神经网络ISRGAN的多源遥感数据融合与超分辨模型",
+      
+      description: "蒸散空间下的土壤特征空间构建",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2016/SRGAN/";
+        
+      },
+    },{id: "post-usfpdec",
+      
+        title: "Usfpdec",
       
       description: "",
       section: "Posts",
