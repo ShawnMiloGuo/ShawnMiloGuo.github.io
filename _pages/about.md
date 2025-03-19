@@ -2,29 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>副研究员</a>. 硕士生导师
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>广东省深圳市西丽大学城</p>
+    <p>学苑大道1068号</p>
+    <p>中国科学院深圳先进技术研究院</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: False # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: False # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 5 # leave blank to include all the blog posts
 ---
 
 ### 郭善昕，副研究员、硕士生导师
@@ -42,4 +42,4 @@ latest_posts:
 招收计算机科学、自然地理学、电子信息、摄影测量与遥感、地理信息系统方向的全日制/非全日制硕士研究生，同时课题组长年招收上述方向一年期以上客座学生。（招生详细信息请参看招生页面）
 
 ### 联系方式：
-Email:sx.guo@siat.ac.cn 
+Email: sx.guo@siat.ac.cn 
