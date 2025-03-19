@@ -1,4 +1,4 @@
-- title: General Information
+- title:
   type: map
   contents:
     - name: 姓名
@@ -6,7 +6,18 @@
     - name: 
       value: 副研究员、硕士生导师
     - name: 
-      value: 中国科学院深圳先进技术研究院 先进计算与数字工程研究所 空间信息研究中心
+      value: 中国科学院深圳先进技术研究院-先进计算与数字工程研究所-空间信息研究中心
+    - name:
+      value: Email: sx.guo@siat.ac.cn
+
+- title: 研究兴趣
+  type: nested_list
+  contents:
+    - title: 面向模型跨域泛化和效率的深度神经网络遥感解译
+    - title: 基于状态光谱特征空间的空间推理
+    - title: 多尺度遥感数据时空融合
+
+
 
 - title: 教育经历
   type: time_table
@@ -15,89 +26,42 @@
       institution: University of Wisconsin-madison, WI, USA
       year: 2013-2015
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - 美国威斯康辛大学麦迪逊分校 地理系 联合培养博士研究生
+
     - title: Ph.D
       institution: Wuhan University, Wuhan, P.R.China
       year: 2010-2015
       description:
-        - Description 1.
-        - Description 2.
+        - 武汉大学遥感信息工程学院 摄影测量与遥感专业
+
     - title: B.S.
       institution: Wuhan University, Wuhan, P.R.China
       year: 2005-2010
       description:
-        - Description 1.
-        - Description 2.
+        - 武汉大学遥感信息工程学院 遥感科学与技术专业
 
-- title: Experience
+- title: 工作经历
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: 副研究员、硕士生导师
+      institution: 中国科学院深圳先进技术研究院-先进计算与数字工程研究所-空间信息研究中心
+      year: 2021 - 至今
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - 空间信息研究中心副研究员
+        - 空间信息研究中心硕士生导师
+        - 深圳市海洋大数据环境信息工程实验室副主任
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: 助理研究员
+      institution: 中国科学院深圳先进技术研究院-先进计算与数字工程研究所-空间信息研究中心
+      year: 2016-2021
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: 奖励
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2022
+      items:
+        - 测绘科学技术一等奖(排名11/15)
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2022
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - 深圳市科技进步二等奖(排名2/8)
