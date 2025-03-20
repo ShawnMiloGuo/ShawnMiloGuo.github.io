@@ -4,7 +4,7 @@ title: cv
 description: mycv
 redirect: /CVM/index.html
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <meta http-equiv="refresh" content="0; url={{ '/CVM/' | relative_url }}" />
