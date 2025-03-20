@@ -44,25 +44,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-简历",
-          title: "简历",
-          description: "mycv",
+        },{id: "nav-新闻",
+          title: "新闻",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/cv/";
+            window.location.href = "/news/";
           },
-        },{id: "post-deep-contextualized-word-representations-elmo",
-      
-        title: "Deep contextualized word representations (ELMo)",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/deep-contextualized-word-representations/";
-        
-      },
-    },{id: "post-the-cmu-steam-tunnels-and-wean-9",
+        },{id: "nav-招聘",
+          title: "招聘",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/recruitment/";
+          },
+        },{id: "post-the-cmu-steam-tunnels-and-wean-9",
       
         title: "The CMU Steam Tunnels and Wean 9",
       
@@ -199,18 +195,12 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+            },},{id: "news-deep-contextualized-word-representations-elmo",
+          title: 'Deep contextualized word representations (ELMo)',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-project-1",
+              window.location.href = "/news/2024-08-02-deep-contextualized-word-representations/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
