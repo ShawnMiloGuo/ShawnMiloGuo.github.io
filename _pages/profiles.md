@@ -9,20 +9,20 @@ nav_order: 4
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-    - align: left
-    image: prof_pic.jpg
+  - align: left
+    image: /assets/img/peoplesImages/wangjinwen.png
     content: wangjinwen.md
     image_circular: true # crops the image to make it circular
     more_info: >
 
   - align: right
-    image: prof_pic.jpg
+    image: 
     content: chenpan.md
     image_circular: true # crops the image to make it circular
     more_info: >
   
   - align: left
-    image: prof_pic.jpg
+    image: /assets/img/peoplesImages/yuwentao.jpg
     content: yuwentao.md
     image_circular: true # crops the image to make it circular
     more_info: >
