@@ -2,10 +2,10 @@
 layout: page
 title: 项目
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [人工智能,卫星遥感]
 horizontal: false
 ---
 

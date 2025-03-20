@@ -11,4 +11,4 @@ nav_order: 6
 
 ... Loading Project Page ...
 
-<p>In case the project page did not load automatically, click <a href="/CV/">here</a></p>.
+<p>In case the project page did not load automatically, click <a href="{{ '/CVM/index.html' | relative_url }}">here</a></p>.
