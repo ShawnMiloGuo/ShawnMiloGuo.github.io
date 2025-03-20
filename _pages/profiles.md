@@ -12,19 +12,19 @@ profiles:
   - align: left
     image: wangjinwen.png
     content: wangjinwen.md
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
     more_info: >
 
   - align: right
     image: chenpan.jpg
     content: chenpan.md
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
     more_info: >
   
   - align: left
     image: yuwentao.jpg
     content: yuwentao.md
-    image_circular: true # crops the image to make it circular
+    image_circular: false # crops the image to make it circular
     more_info: >
 
 ---
