@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-<meta http-equiv="refresh" content="0; url={{ '/CVM/' | relative_url }}" />
+<meta http-equiv="refresh" content="0; url={{ '/CVM/index.html' | relative_url }}" />
 
 ... Loading Project Page ...
 
