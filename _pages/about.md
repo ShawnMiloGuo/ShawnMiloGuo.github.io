@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: 主页
 permalink: /
 subtitle: <a href='#'>中国科学院深圳先进技术研究院 副研究员</a>. 硕士生导师
 

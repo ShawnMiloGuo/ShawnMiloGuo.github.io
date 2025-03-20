@@ -1,6 +1,6 @@
 ---
 layout: page
-title: cv
+title: 简历
 description: mycv
 redirect: /CVM/index.html
 nav: true

@@ -1,10 +1,10 @@
-
 ---
 layout: page
-title: recruitment
+title: 招聘
 permalink: /recruitment/
 nav_order: 7
 ---
+
 ![](assets/img/postImages/image-20220317152832-0wl42ox.png)
 # 应聘条件：
 

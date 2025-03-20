@@ -89,7 +89,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Feature Space # blog_name will be displayed in your blog page
 blog_description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Remote Sensing and Machine Learning Research from Feature Space.
+  Remote Sensing \ Machine Learning \ Atificial Intelligence
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
