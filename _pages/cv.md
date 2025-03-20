@@ -2,6 +2,7 @@
 layout: page
 title: 简历
 description: mycv
+permalink: /cv/
 redirect: /CVM/index.html
 nav: true
 nav_order: 6
