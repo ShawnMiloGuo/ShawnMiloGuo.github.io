@@ -3,35 +3,35 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-主页",
+    title: "主页",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "Blog",
+  },{id: "nav-博客",
+          title: "博客",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-论文发表",
-          title: "论文发表",
+        },{id: "nav-论文",
+          title: "论文",
           description: "在遥感和人工智能领域发表的论文",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-项目",
+          title: "项目",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-people",
-          title: "people",
+        },{id: "nav-团队",
+          title: "团队",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
@@ -44,8 +44,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-cv",
-          title: "cv",
+        },{id: "nav-简历",
+          title: "简历",
           description: "mycv",
           section: "Navigation",
           handler: () => {
