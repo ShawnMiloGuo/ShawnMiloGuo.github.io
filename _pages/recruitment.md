@@ -1,12 +1,17 @@
 ---
 layout: page
-title: 招聘
+title: 招生
 permalink: /recruitment/
 nav: true
 nav_order: 7
 ---
+{% include figure.liquid 
+  path="assets/img/posts/recrumitent/globe_map.webp" 
+  width="900px"
+  class="z-depth-1" 
+  caption=""
+%}
 
-![](assets/img/postImages/image-20220317152832-0wl42ox.png)
 # 应聘条件：
 
 ## 博士后
