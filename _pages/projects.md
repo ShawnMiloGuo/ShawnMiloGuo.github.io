@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 项目
+title: 研究课题
 permalink: /projects/
 description: 
 nav: true

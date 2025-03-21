@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 招生
+title: 招生启示
 permalink: /recruitment/
 nav: true
 nav_order: 7

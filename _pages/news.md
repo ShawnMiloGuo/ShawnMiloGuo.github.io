@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 新闻
+title: 学术活动
 permalink: /news/
 nav: true
 nav_order: 5
