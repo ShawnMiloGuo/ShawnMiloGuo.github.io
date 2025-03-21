@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
+        },{id: "post-",
+      
+        title: "",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/2024-02-10-IUSTFM/";
+        
+      },
+    },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
       
         title: "基于HRU-Net的中高分辨率地表要素提取模型",
       
@@ -78,17 +89,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2018/HOCPD/";
-        
-      },
-    },{id: "post-面向地表温度跨尺度融合的动态神经网络",
-      
-        title: "面向地表温度跨尺度融合的动态神经网络",
-      
-      description: "蒸散空间下的土壤特征空间构建",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2016/IUSTFM/";
         
       },
     },{id: "post-基于解混策略的时空融合模型稳定性分析-以地表温度为例",
