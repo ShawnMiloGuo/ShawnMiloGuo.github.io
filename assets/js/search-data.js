@@ -44,8 +44,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "nav-招生启示",
-          title: "招生启示",
+        },{id: "nav-招生启事",
+          title: "招生启事",
           description: "",
           section: "Navigation",
           handler: () => {
