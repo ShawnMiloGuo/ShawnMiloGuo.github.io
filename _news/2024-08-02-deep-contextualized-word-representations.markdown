@@ -1,7 +1,7 @@
 ---
 layout: summary
 title: "Deep contextualized word representations (ELMo)"
-giscus_comments: true
+giscus_comments: false
 bib_id: 1802.05365v2
 ---
 
