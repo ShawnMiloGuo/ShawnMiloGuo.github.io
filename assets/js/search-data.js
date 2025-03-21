@@ -51,6 +51,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/recruitment/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
       
         title: "基于HRU-Net的中高分辨率地表要素提取模型",
