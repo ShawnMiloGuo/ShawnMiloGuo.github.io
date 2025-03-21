@@ -16,60 +16,42 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-论文",
-          title: "论文",
+        },{id: "nav-论文发表",
+          title: "论文发表",
           description: "这里主要收录课题组在多源数据融合、人工智能算法及生态环境监测等方面的研究成果。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-项目",
-          title: "项目",
+        },{id: "nav-研究课题",
+          title: "研究课题",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-团队",
-          title: "团队",
+        },{id: "nav-研究团队",
+          title: "研究团队",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "nav-新闻",
-          title: "新闻",
+        },{id: "nav-学术活动",
+          title: "学术活动",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "nav-招生",
-          title: "招生",
+        },{id: "nav-招生启示",
+          title: "招生启示",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/recruitment/";
           },
-        },{id: "post-the-cmu-steam-tunnels-and-wean-9",
-      
-        title: "The CMU Steam Tunnels and Wean 9",
-      
-      description: "If you&#39;re curious about the infamous steam tunnels at CMU, or what the views from the roof of Wean Hall looks like, this post is for you!",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2023/cmu-steam-tunnels/";
-        
-      },
-    },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
+        },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
       
         title: "基于HRU-Net的中高分辨率地表要素提取模型",
       
