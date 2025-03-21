@@ -47,16 +47,12 @@ profiles:
 |---------------------|------------|---------------------|------------|
 | **Jiujuan Wang**    | 2018-2021  | **Xinping Deng**    | 2017-2020  |
 | <img src="/assets/img/peoplesImages/wangjiujuan.png" width="80px" /> | Current position: Belt and Road Environmental Technology<br /> Exchange and Transfer Center (Shenzhen) <br />（一带一路环境技术交流与转移中心-深圳） | <img src="/assets/img/peoplesImages/dengxinping.png" width="80px" /> | Current position: Shenzhen MedCaptain Co. Ltd.<br />（深圳麦科田生物医疗技术股份有限公司） |
-
 | **Jianxin Jia**     | 2019-2021  | **Wenna Xu**        | 2017-2020  |
 | <img src="/assets/img/peoplesImages/jiajianxin.png" width="80px" /> | Current position: Finnish Geospatial Research Institute,<br /> Kirkkonummi, Finland （芬兰地球空间研究所）<br /> | <img src="/assets/img/peoplesImages/xuwenna.png" width="80px" /> | Current position: iFLYTEK (科大讯飞） |
-
 | **Yingfei Xiong**   | 2018-2021  | **Chuang Lin**      | 2018-2021  |
 | <img src="/assets/img/peoplesImages/xiongyinfei.png" width="80px" /> | Current position: Huawei Co. Ltd. (华为） | <img src="/assets/img/peoplesImages/linchuang.png" width="80px" /> | Current position: Huawei Co. Ltd. (华为） |
-
 | **Yuan Shen**       | 2017-2020  | **Binglong Wu**     | 2020-2021  |
 | <img src="/assets/img/peoplesImages/shenyuan.png" width="80px" /> | Current position: Autel Robotics Co. Ltd. (道通智能） | <img src="/assets/img/peoplesImages/wubinglong.png" width="80px" /> | Working on his M.S degree |
-
 | **Jing Wang**       | Assistant Professor | **Xiaorou Zheng** | Ph.D student |
 | <img src="/assets/img/peoplesImages/wangjing.png" width="80px" /> | University of Chinese <br />Academy of Sciences<br /> | <img src="/assets/img/peoplesImages/zhengxiaorou.png" width="80px" /> | University of Chinese <br />Academy of Sciences |
 
