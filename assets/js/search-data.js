@@ -58,15 +58,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-面向地表快速变化场景的时空融合的动态神经网络i-ustfm-以地表温度为例",
       
-        title: "",
+        title: "面向地表快速变化场景的时空融合的动态神经网络I-USTFM：以地表温度为例",
       
-      description: "",
+      description: "由于卫星轨道和传感器设计的限制，热波段的空间分辨率和时间分辨率之间通常存在权衡。日常传感器只能提供较低空间分辨率的数据，如分辨率为 1 公里的 MODIS LST。精细分辨率（100 或更低）的传感器通常受限于其扫描带宽度和轨道高度，只能提供数天内的数据，如大地遥感卫星系列平台的八天内数据（结合Landsat-7 、8和 9）。因此，在提升可用卫星资源方面，合并多个卫星传感器的数据是获得高时空分辨率观测数据的关键挑战之一，这将进一步惠及地表能量建模和精准农业等许多综合应用。",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/2024-02-10-IUSTFM/";
+          window.location.href = "/blog/2024/IUSTFM/";
         
       },
     },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
