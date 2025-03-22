@@ -69,6 +69,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/IUSTFM/";
         
       },
+    },{id: "post-对抗样本噪声的遥感深度学习分类网络模型",
+      
+        title: "对抗样本噪声的遥感深度学习分类网络模型",
+      
+      description: "针对样本标签噪声造成的地物提取精度不足问题，本文提出了一种抗噪声标签的卷积神经网络框架，Weight Loss Net（WLN）。WLN主要包含三部分：（1）分割子网络，用于产生图像的逐像素分类结果，可以使用其他的分割模型进行替换；（2）损失权重参数，用于对每个训练样本赋权重，对干净样本赋予高权重值，对噪声样本赋予低权重值，降低噪声样本对网络训练过程中的影响，提高网络的抗噪性能；（3）类别平衡系数，帮助网络平等地学习每一个类别，避免由于不同类别之间的不平衡导致模型过拟合。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/WLN/";
+        
+      },
     },{id: "post-快速评估监督学习中常用遥感分类算法的时间效率",
       
         title: "快速评估监督学习中常用遥感分类算法的时间效率",
@@ -133,17 +144,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2016/SAR-OPT/";
-        
-      },
-    },{id: "post-对抗样本噪声的遥感深度学习分类网络模型",
-      
-        title: "对抗样本噪声的遥感深度学习分类网络模型",
-      
-      description: "蒸散空间下的土壤特征空间构建",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2016/WLN/";
         
       },
     },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
