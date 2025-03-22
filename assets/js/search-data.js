@@ -102,6 +102,39 @@ ninja.data = [{
           window.location.href = "/blog/2024/FPTC/";
         
       },
+    },{id: "post-基于光学微波特征融合的典型经济作物提取",
+      
+        title: "基于光学微波特征融合的典型经济作物提取",
+      
+      description: "针对异物同谱效应导致的作物提取精度不足问题，本研究提出了一种集成光学和微波特征的方法，通过特征融合提升作物提取精度。本研究基于Sentinel-1合成孔径雷达影像和Sentinel-2多光谱数据，对新疆巴州地区典型绿洲农业区进行作物分类制图。为提高雷达数据特征提取质量，采用SHP-DSI方法对时间序列Sentinel-1数据的后向散射强度进行相干斑抑制，并精确估计和去偏相干系数。此外，首次在研究中提取了合成孔径雷达干涉（InSAR）产品用于作物分类，包括干涉相干系数、主从影像后向散射强度比以及SAR时间序列的振幅色离散度指数等。为探索红边特征在绿洲作物类型识别中的作用，本研究提取了Sentinel-2的3个红边波段并导出了11个红边指数，结合常规多光谱特征，与雷达特征集成以提升作物分类精度。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/SAR-OPT/";
+        
+      },
+    },{id: "post-基于对抗神经网络isrgan的多源遥感数据融合与超分辨模型",
+      
+        title: "基于对抗神经网络ISRGAN的多源遥感数据融合与超分辨模型",
+      
+      description: "为满足具体监测任务尤其是应急响应任务对时空分辨率的要求，需要对多时间、空间尺度的遥感数据进行融合。传统数据融合方法鲁棒性较低，模型无法跨区域、跨传感器应用，因此，本研究基于人工智能领域的超分辨率生成对抗网络（以下简称SRGAN），开展多尺度数据融合方法研究，提出ISRGAN影像超分辨模型。ISRGAN模型以超分辨率生成对抗网络SRGAN为基础，为解决SRGAN模型训练不稳定以及在跨区域和跨传感器上的迁移性不足的问题，针对性地修改了SRGAN的损失函数并对其网络结构进行了改进，使模型训练地更加稳定，在跨区域和跨传感器上有着良好的迁移能力。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/SRGAN/";
+        
+      },
+    },{id: "post-统一不同蒸发条件下的土壤反馈模式以改善平坦地区的土壤数字制图",
+      
+        title: "统一不同蒸发条件下的土壤反馈模式以改善平坦地区的土壤数字制图",
+      
+      description: "由于卫星轨道和传感器设计的限制，热波段的空间分辨率和时间分辨率之间通常存在权衡。日常传感器只能提供较低空间分辨率的数据，如分辨率为 1 公里的 MODIS LST。精细分辨率（100 米或更低）的传感器通常受限于其扫描带宽度和轨道高度，只能提供数天内的数据，如 Landsat 系列卫星的八天内数据。因此，如何整合多个卫星传感器的数据以获得高时空分辨率的观测数据，成为提升卫星资源利用率的关键挑战之一。这一挑战的解决将进一步推动地表能量建模和精准农业等综合应用的发展。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/USFPDEC/";
+        
+      },
     },{id: "post-级联多级检测器的多分辨率遥感图像的高质量目标检测",
       
         title: "级联多级检测器的多分辨率遥感图像的高质量目标检测",
@@ -133,39 +166,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2023/HRUNET/";
-        
-      },
-    },{id: "post-基于光学微波特征融合的新疆典型经济作物提取",
-      
-        title: "基于光学微波特征融合的新疆典型经济作物提取",
-      
-      description: "蒸散空间下的土壤特征空间构建",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2016/SAR-OPT/";
-        
-      },
-    },{id: "post-基于对抗神经网络isrgan的多源遥感数据融合与超分辨模型",
-      
-        title: "基于对抗神经网络ISRGAN的多源遥感数据融合与超分辨模型",
-      
-      description: "蒸散空间下的土壤特征空间构建",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2016/SRGAN/";
-        
-      },
-    },{id: "post-usfpdec",
-      
-        title: "Usfpdec",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2016/USFPDEC/";
         
       },
     },{id: "books-the-godfather",
