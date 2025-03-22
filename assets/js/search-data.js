@@ -69,6 +69,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/IUSTFM/";
         
       },
+    },{id: "post-快速评估监督学习中常用遥感分类算法的时间效率",
+      
+        title: "快速评估监督学习中常用遥感分类算法的时间效率",
+      
+      description: "本文提出了全参数时间复杂度（Full Parameter Time Complexity，以下简称FPTC），该方法考虑了所有可能影响时间消耗的参数。同时，我们定义了一个系数$\omega$，用于模拟不同分类器在不同计算平台之间的物理差异。在本文的后续章节中，我们将基于FPTC的定义，具体推导以下几种算法的FPTC，包括：$k$NN（$k$-nearest neighbors）、LR（logistic regression）、CART（classification and regression tree）、RF（random forest）和SVM（support vector machine）。为了验证FPTC及其系数$\omega$的有效性，我们选择了新疆维吾尔自治区和Sentinel-2A数据集作为案例研究。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/FPTC/";
+        
+      },
     },{id: "post-级联多级检测器的多分辨率遥感图像的高质量目标检测",
       
         title: "级联多级检测器的多分辨率遥感图像的高质量目标检测",
@@ -111,17 +122,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2018/HOCPD/";
-        
-      },
-    },{id: "post-快速评估监督学习中常用遥感分类算法的时间效率",
-      
-        title: "快速评估监督学习中常用遥感分类算法的时间效率",
-      
-      description: "蒸散空间下的土壤特征空间构建",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2016/FPTC/";
         
       },
     },{id: "post-基于光学微波特征融合的新疆典型经济作物提取",
