@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "nav-学术活动",
-          title: "学术活动",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
-          },
         },{id: "nav-招生启事",
           title: "招生启事",
           description: "",
