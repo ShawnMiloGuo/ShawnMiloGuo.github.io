@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-面向地表快速变化场景的时空融合的动态神经网络i-ustfm-以地表温度为例",
+        },{id: "post-基于时空混合的modis产品降尺度模型-以海表叶绿素为例",
+      
+        title: "基于时空混合的MODIS产品降尺度模型-以海表叶绿素为例",
+      
+      description: "本文提出了一种基于U-STFM模型的时空数据融合方法，用于将MODIS 1km叶绿素-a产品降尺度至30m。研究解决了卫星传感器在空间分辨率和时间分辨率之间的权衡问题，通过整合MODIS和Landsat数据，提升了近海水域的空间细节，同时保持了时间一致性。U-STFM模型利用时间序列变化率和线性分解方法预测高分辨率反射率，并通过回归模型生成高分辨率叶绿素-a浓度产品。实验在渤海湾和深港海域验证了该方法的有效性，结果表明其能够显著改善近海水域的纹理细节，同时保持与原始MODIS产品一致的精度。该方法为近海水域的生物过程研究和卫星数据利用提供了重要支持。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2024/HOCPD/";
+        
+      },
+    },{id: "post-面向地表快速变化场景的时空融合的动态神经网络i-ustfm-以地表温度为例",
       
         title: "面向地表快速变化场景的时空融合的动态神经网络I-USTFM：以地表温度为例",
       
@@ -122,28 +133,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2023/HRUNET/";
-        
-      },
-    },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
-      
-        title: "基于HRU-Net的中高分辨率地表要素提取模型",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2022/HRUNET/";
-        
-      },
-    },{id: "post-hocpd",
-      
-        title: "Hocpd",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2018/HOCPD/";
         
       },
     },{id: "post-基于光学微波特征融合的新疆典型经济作物提取",
