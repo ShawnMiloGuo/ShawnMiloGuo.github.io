@@ -69,6 +69,17 @@ ninja.data = [{
           window.location.href = "/blog/2024/IUSTFM/";
         
       },
+    },{id: "post-基于解混策略的时空融合模型稳定性分析",
+      
+        title: "基于解混策略的时空融合模型稳定性分析",
+      
+      description: "地表温度（Land Surface Temperature，LST）在地球表面与大气能量交换过程中有着重要的作用。然而受传感器性能的制约，利用单一的星载热红外传感器无法反演出同时具有高时间和高空间分辨率的地表温度，从而限制地表温度数据的应用。时空融合模型是解决这一问题的有效途径。目前，基于解混的时空融合模型稳定性的影响因素存在不确定性。针对此问题本文从同质变化单元（homogeneous change regions，HCRs）分类方式、解混次数以及HCRs数量三方面来分析模型稳定性。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2023/USTFM-LST/";
+        
+      },
     },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
       
         title: "基于HRU-Net的中高分辨率地表要素提取模型",
@@ -89,17 +100,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2018/HOCPD/";
-        
-      },
-    },{id: "post-基于解混策略的时空融合模型稳定性分析-以地表温度为例",
-      
-        title: "基于解混策略的时空融合模型稳定性分析—以地表温度为例",
-      
-      description: "蒸散空间下的土壤特征空间构建",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2016/USTFM-LST/";
         
       },
     },{id: "post-使用级联多级检测器的多分辨率遥感图像的高质量目标检测",
