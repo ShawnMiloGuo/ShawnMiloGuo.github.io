@@ -117,6 +117,17 @@ ninja.data = [{
       
         title: "基于HRU-Net的中高分辨率地表要素提取模型",
       
+      description: "在多光谱遥感中，由于同物异谱效应，传统分类方法（如支持向量机、随机森林）在提取复合要素（如耕地）时精度较低，尤其是在休耕、弃耕或轮种情况下，耕地的光谱差异较大。相比之下，卷积神经网络（CNN）对同类地物的特征差异具有较高的容忍度，泛化能力强，因此在同物异谱情况下有望提高复合要素的提取精度。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2023/HRUNET/";
+        
+      },
+    },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
+      
+        title: "基于HRU-Net的中高分辨率地表要素提取模型",
+      
       description: "",
       section: "Posts",
       handler: () => {
@@ -144,17 +155,6 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2016/SAR-OPT/";
-        
-      },
-    },{id: "post-基于hru-net的中高分辨率地表要素提取模型",
-      
-        title: "基于HRU-Net的中高分辨率地表要素提取模型",
-      
-      description: "蒸散空间下的土壤特征空间构建",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2016/HRUNET/";
         
       },
     },{id: "post-基于对抗神经网络isrgan的多源遥感数据融合与超分辨模型",
