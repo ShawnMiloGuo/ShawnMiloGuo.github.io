@@ -2,7 +2,7 @@
 layout: page
 title: 学术活动
 permalink: /news/
-nav: true
+nav: false
 nav_order: 5
 ---
 
