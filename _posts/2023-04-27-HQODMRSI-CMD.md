@@ -1,11 +1,18 @@
 ---
+title: "级联多级检测器的多分辨率遥感图像的高质量目标检测"
 layout: post
-title: 使用级联多级检测器的多分辨率遥感图像的高质量目标检测
-date: 2016-02-03 21:01:00
-description: 蒸散空间下的土壤特征空间构建
-tags: 特征空间构建
-categories: 特征空间优化
-thumbnail: /assets/img/postImages/2016-02-03-图10.png
+tags: [AI, remote-sensing]
+cover: 2024-06-27-HQODMRSI-CMD/DSC05871.jpeg
+cover_preview: 2024-06-27-HQODMRSI-CMD/DSC05871.jpeg
+caption: 大理洱海畔
+class: post-template
+author: Shanxin Guo
+toc:
+  sidebar: left
+giscus_comments: false
+description: >
+    基于深度学习的物体检测器在精度和自动化程度方面显著提升了遥感图像中的目标检测性能。然而，由于物体尺度的巨大变化，在多分辨率遥感图像中实现高质量检测仍然具有挑战性。检测质量通常由训练中使用的交并比（IoU）阈值定义。此外，多分辨率图像中正负样本的不平衡问题也会进一步降低检测精度。近期研究表明，基于级联的区域卷积神经网络（R-CNN）通过引入三级级联结构并逐步提高IoU阈值，可以实现更高的检测质量。然而，当增加到第四级时，级联R-CNN的性能却出现下降。我们通过研究发现，ROI特征与分类器之间的不匹配可能是导致性能下降的主要原因。
+published: true
 ---
 
 基于深度学习的物体检测器在精度和自动化程度方面大大改善了遥感图像中最先进的物体检测。然而，物体尺度的巨大变化使得在多分辨率的遥感图像中很难实现高质量的检测，而质量是由训练中使用的交叉联合（IoU）阈值定义的。此外，跨多分辨率图像的正负样本之间的不平衡也使检测精度恶化。
@@ -44,7 +51,7 @@ thumbnail: /assets/img/postImages/2016-02-03-图10.png
 
 在每个阶段，边界盒回归器被用来通过最小化真实边界盒和候选边界盒之间的偏移量来逐渐使候选提案接近真实标签位置。一个输入建议p可以通过以下方式转化为预测的真实标签框g。推导公式表示如下：
 
-{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 公式.png" width="400px" class="z-depth-1 mx-auto d-block" caption="公式" %}
+{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 公式.png" width="800px" class="z-depth-1 mx-auto d-block" caption="公式" %}
 
 其中p=(px,py,pw,ph)表示输入建议的位置，g=(gx,gy,gw,gh)是预测的真实标签箱。Δ=(tx/cx,ty/cy,tw/cw,th/ch)代表距离向量，即由边界盒回归器进行的微小调整。是影响距离向量大小的权重，权重cx、cy、cw、ch最初设定为（10，10，5，5），并随着阶段的增加而逐渐增加。由于边界盒回归器对偏移向量Δ进行了微调，这些值通常是非常小的。因此，归一化被执行为Δ[25,35,36,41].对于一个图像补丁xj，级联R-CNN[25]中使用的边界盒回归的损失函数可以表示为Rloc，其中Rloc是边界盒回归的交叉熵损失，j是一个候选方案的索引，Nloc是候选提案的数量，Lloc表示S1平滑L1函数[24]。
 
@@ -54,15 +61,15 @@ thumbnail: /assets/img/postImages/2016-02-03-图10.png
 
 其中sgn是符号函数，指数4/3的条款（tk/ck）4/3，和k∈{x,y,w,h}。是为了增加非线性并保持灵敏度和损失梯度之间的权衡。输入(tx,ty,tw,th)与边界箱输出偏移量（gx-px,gy-py,gw/pw,gh/ph）绘制成图。对于不同权重的原始和修改后的损失函数ci，i∈{x,y,w,h}。不同阶段（图4和图5）。修改后的损失函数在零点附近的曲线更平滑，表明当候选边界盒和真实标签之间的偏移接近零时，回归器的步长更小（即灵敏度更高）。这一修改使得级联边界盒回归器随着阶段的增加而进一步收敛。
 
-{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图4-图5.png" width="400px" class="z-depth-1 mx-auto d-block" caption="图4-图5" %}
+{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图4-图5.png" width="800px" class="z-depth-1 mx-auto d-block" caption="图4-图5" %}
 
-{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图6.png" width="400px" class="z-depth-1 mx-auto d-block" caption="图6" %}
+{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图6.png" width="800px" class="z-depth-1 mx-auto d-block" caption="图6" %}
 
 图6说明了在损失函数中采取不同指数值的效果。我们可以看到，较大的指数值对应于损失函数在零附近的较高灵敏度，但收敛速度较慢。指数项为4/3是灵敏度和收敛速度之间的权衡。该值是经过多次实验后选择的经验值。
 
 # 试验结果
 
-{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 表2-表5.png" width="400px" class="z-depth-1 mx-auto d-block" caption="表2-表5" %}
+{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 表2-表5.png" width="800px" class="z-depth-1 mx-auto d-block" caption="表2-表5" %}
 
 ## 阶段性的比较
 
@@ -88,15 +95,15 @@ thumbnail: /assets/img/postImages/2016-02-03-图10.png
 
 进一步的分析是为了比较所提出的模型和原来的Cascade R-CNN在多分辨率遥感图像中的可迁移性。遥感数据集DOTA-v1.5中的图像按不同的系数（如2、3和4）进行了放大。由原始分辨率图像训练的探测模型直接用于推理，以模拟用有限的数据变异性训练的探测器被用于探测不同分辨率图像中的物体的大多数情况。如前所述，DOTA-v1.5数据集包含16类物体，如飞机、船舶、储罐、大型车辆、小型车辆等。这里我们以飞机和港口的检测为例。图7（单物体）和图8（多物体）显示了在多分辨率图像上实现的物体检测性能。
 
-{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图7" width="400px" class="z-depth-1 mx-auto d-block" caption="图7" %}
+{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图7" width="800px" class="z-depth-1 mx-auto d-block" caption="图7" %}
 
-{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图8" width="400px" class="z-depth-1 mx-auto d-block" caption="图8" %}
+{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图8" width="800px" class="z-depth-1 mx-auto d-block" caption="图8" %}
 
 从图7可以看出，在单物体和大物体检测中，Cascade R-CNN++获得的IoUs略好于Cascade R-CNN。在多物体检测中（图8），Cascade R-CNN的性能随着升级因子的增加而迅速下降，而Cascade R-CNN++在不同分辨率的图像中表现出更好的迁移能力。特别是对于小物体的检测，如图8c,g中的白色椭圆所示，当图像被放大3倍时，Cascade R-CNN++可以检测到大部分的小物体，而Cascade R-CNN则漏掉了大部分的小物体。当图像被放大四倍时，如图8d,h，两个检测模型都漏检了一些小物体。在飞机的检测中（图8d），我们注意到Cascade R-CNN几乎漏掉了所有的小飞机，而Cascade R-CNN++仍然可以检测到几个小飞机。
 
 我们对DOTA-v1.5中所有测试图像上的16类物体进行了上述实验，使用了1、3/2、2、5/2、3、24/7和4的上标比例。图9显示了边界盒回归后获得的IU的博弈图。3/2的升尺度比率是指图像被升尺度2倍，降尺度3倍的情况。这与其他比率相同。
 
-{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图9" width="400px" class="z-depth-1 mx-auto d-block" caption="图9" %}
+{% include figure.liquid path="/SIAT-GeoScience/assets/2022-04-27 图9" width="800px" class="z-depth-1 mx-auto d-block" caption="图9" %}
 
 从图9中我们可以看出，对于按不同比例放大的遥感图像，Cascade R-CNN++比Cascade R-CNN获得了更高的IoU。随着放大比例的增加，Cascade R-CNN++获得的IoU分布的改善变得更加明显。这些结果表明，在多分辨率遥感图像中，Cascade R-CNN++比Cascade R-CNN获得了更高的检测质量。
 
