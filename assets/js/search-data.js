@@ -187,6 +187,11 @@ ninja.data = [{
           description: "利用多课卫星开展时空连续光谱监测",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-地表状态序列特征空间构建",
+          title: '地表状态序列特征空间构建',
+          description: "a project with a background image and giscus comments",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
