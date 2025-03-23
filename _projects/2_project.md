@@ -1,14 +1,23 @@
 ---
 layout: page
 title: 地表状态序列特征空间构建
-description: a project with a background image and giscus comments
+description: 构建地表物理状态序列，重构光谱
 img: assets/img/3.jpg
 importance: 2
 category: 卫星遥感
 
 ---
-
-# 解构地表动态：构建物理状态驱动的遥感分析新范式  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 遥感技术，通过卫星过境的短暂窗口，记录地表物质对电磁波的瞬时响应。然而，这一观测特性背后隐藏着一个长期被忽视的关键矛盾：**卫星捕捉的是一瞬间的光谱快照，但地表实际处于持续动态演变的物理状态中**。例如，同一片农田在卫星两次过境时，可能因土壤含水率从15%骤增至32%、植被叶绿素含量随生长周期波动，导致光谱曲线呈现显著差异。这种“同物异谱”现象，本质上是传统遥感分析将时间序列与物理状态混为一谈所引发的系统性误差。  
