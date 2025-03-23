@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-基于时空混合的modis产品降尺度模型-以海表叶绿素为例",
+        },{id: "post-基于时空融合的modis产品降尺度模型-以海表叶绿素为例",
       
-        title: "基于时空混合的MODIS产品降尺度模型-以海表叶绿素为例",
+        title: "基于时空融合的MODIS产品降尺度模型-以海表叶绿素为例",
       
       description: "本文提出了一种基于U-STFM模型的时空数据融合方法，用于将MODIS 1km叶绿素-a产品降尺度至30m。研究解决了卫星传感器在空间分辨率和时间分辨率之间的权衡问题，通过整合MODIS和Landsat数据，提升了近海水域的空间细节，同时保持了时间一致性。U-STFM模型利用时间序列变化率和线性分解方法预测高分辨率反射率，并通过回归模型生成高分辨率叶绿素-a浓度产品。实验在渤海湾和深港海域验证了该方法的有效性，结果表明其能够显著改善近海水域的纹理细节，同时保持与原始MODIS产品一致的精度。该方法为近海水域的生物过程研究和卫星数据利用提供了重要支持。",
       section: "Posts",
@@ -182,51 +182,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-08-02-deep-contextualized-word-representations/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-多卫星数据融合开展高时空分辨率地表状态的观测",
+          title: '多卫星数据融合开展高时空分辨率地表状态的观测',
+          description: "利用多课卫星开展时空连续光谱监测",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
