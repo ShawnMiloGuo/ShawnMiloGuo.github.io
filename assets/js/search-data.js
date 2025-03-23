@@ -189,7 +189,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-地表状态序列特征空间构建",
           title: '地表状态序列特征空间构建',
-          description: "a project with a background image and giscus comments",
+          description: "构建地表物理状态序列，重构光谱",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{
