@@ -202,6 +202,16 @@ ninja.data = [{
           description: "构建地表物理状态序列，重构光谱",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-基于基础视觉大模型的遥感影像高效微调",
+          title: '基于基础视觉大模型的遥感影像高效微调',
+          description: "如何让前沿AI技术更高效地服务于遥感数据的深度挖掘？",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-人工智能模型与遥感物理机理模型的协同",
+          title: '人工智能模型与遥感物理机理模型的协同',
+          description: "构建地表物理状态序列，重构光谱",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-email',
         title: 'email',
