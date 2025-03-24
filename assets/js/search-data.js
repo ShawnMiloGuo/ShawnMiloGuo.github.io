@@ -199,7 +199,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-深度神经网络在遥感跨场景迁移",
           title: '深度神经网络在遥感跨场景迁移',
-          description: "构建地表物理状态序列，重构光谱",
+          description: "如何实现神经网络在跨传感器，跨尺度和跨地域的泛化迁移？",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-基于基础视觉大模型的遥感影像高效微调",
@@ -209,7 +209,7 @@ ninja.data = [{
               window.location.href = "/projects/5_project/";
             },},{id: "projects-人工智能模型与遥感物理机理模型的协同",
           title: '人工智能模型与遥感物理机理模型的协同',
-          description: "构建地表物理状态序列，重构光谱",
+          description: "如何将遥感机理模型和人工智能模型进行深入融合？",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{
