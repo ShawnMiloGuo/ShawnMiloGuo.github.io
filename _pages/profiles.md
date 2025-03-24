@@ -37,7 +37,7 @@ profiles:
 
 | **李炤琳 Zhaolin Li** | **杨佳珍 Jiazhen Yang** | **班寰宇 Huanyu Ban** | **张星龙 Xinlong Zhang** |
 |----------------------|-------------------------|-----------------------|--------------------------|
-| M.S student          | M.S student            | M.S student           | M.S student             |
+| Ph.D student          | M.S student            | Ph.D student           | M.S student             |
 | <img src="/assets/img/peoplesImages/lizhaoling.jpg" width="80px" /> | <img src="/assets/img/peoplesImages/yangjiazheng.jpg" width="80px" /> | <img src="/assets/img/peoplesImages/banhuanyu.jpg" width="80px" /> | <img src="/assets/img/peoplesImages/zhangxinlong.jpg" width="80px" /> |
 | University of Chinese <br /> Academy of Sciences | University of Chinese <br /> Academy of Sciences | The Hong Kong <br /> Polytechnic University | University of Chinese <br /> Academy of Sciences |
 
@@ -54,7 +54,9 @@ profiles:
 | **Yuan Shen**       | 2017-2020  | **Binglong Wu**     | 2020-2021  |
 | <img src="/assets/img/peoplesImages/shenyuan.png" width="80px" /> | Current position: Autel Robotics Co. Ltd. (道通智能） | <img src="/assets/img/peoplesImages/wubinglong.png" width="80px" /> | Working on his M.S degree |
 | **Jing Wang**       | Assistant Professor | **Xiaorou Zheng** | Ph.D student |
-| <img src="/assets/img/peoplesImages/wangjing.png" width="80px" /> | University of Chinese <br />Academy of Sciences<br /> | <img src="/assets/img/peoplesImages/zhengxiaorou.png" width="80px" /> | University of Chinese <br />Academy of Sciences |
+| <img src="/assets/img/peoplesImages/wangjing.png" width="80px" /> | South China Normal University | <img src="/assets/img/peoplesImages/zhengxiaorou.png" width="80px" /> | South China Normal University |
+| **Min Li**       | Assistant Professor | **Yuankai Ge** | Ph.D student |
+| <img src="/assets/img/peoplesImages/limin.png" width="80px" /> | 浙江新湾市政工程建设有限公司 | <img src="/assets/img/peoplesImages/geyuankai.png" width="80px" /> | 中国中铁股份有限公司 |
 
 # Group meeting & life
 
