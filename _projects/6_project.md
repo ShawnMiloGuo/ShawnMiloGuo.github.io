@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 人工智能模型与遥感物理机理模型的协同
-description: 构建地表物理状态序列，重构光谱
+description: 如何将遥感机理模型和人工智能模型进行深入融合？
 img: assets/img/roman-mager-5mZ_M06Fc9g-unsplash.jpg
 importance: 3
 category: 人工智能

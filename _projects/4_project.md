@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 深度神经网络在遥感跨场景迁移
-description: 构建地表物理状态序列，重构光谱
+description: 如何实现神经网络在跨传感器，跨尺度和跨地域的泛化迁移？
 img: assets/img/joep-lan-KrztrcWCRFs-unsplash.jpg
 importance: 3
 category: 人工智能
