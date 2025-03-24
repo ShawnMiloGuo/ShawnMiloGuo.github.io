@@ -192,6 +192,16 @@ ninja.data = [{
           description: "构建地表物理状态序列，重构光谱",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-海岸带城市陆海碳通量高分辨率遥感监测与时空演变分析",
+          title: '海岸带城市陆海碳通量高分辨率遥感监测与时空演变分析',
+          description: "面向近岸海域陆地、海洋碳参量估算难题，研发基于卫星、无人机等多种传感设备的碳汇监测模型。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
+            },},{id: "projects-深度神经网络在遥感跨场景迁移",
+          title: '深度神经网络在遥感跨场景迁移',
+          description: "构建地表物理状态序列，重构光谱",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
