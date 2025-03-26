@@ -128,17 +128,6 @@ ninja.data = [{
           window.location.href = "/blog/2024/USFPDEC/";
         
       },
-    },{id: "post-什么是生命",
-      
-        title: "什么是生命",
-      
-      description: "本文从个人视角探讨了生命的本质与意义，结合成长经历、记忆的重要性以及幸福感的来源，分析了生命旅程中的体验与感悟。文章通过对“真、善、美”的追求，阐述了生命体在熵减过程中的努力与价值，提出了如何在有限的生命中创造美好体验的思考。",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/LifeThinking/";
-        
-      },
     },{id: "post-级联多级检测器的多分辨率遥感图像的高质量目标检测",
       
         title: "级联多级检测器的多分辨率遥感图像的高质量目标检测",
