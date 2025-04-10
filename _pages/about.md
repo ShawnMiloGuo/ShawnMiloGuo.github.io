@@ -12,6 +12,8 @@ profile:
     <p>中国科学院深圳先进技术研究院</p>
     <p>广东省深圳市西丽大学城学苑大道1068号</p>
     <p>Email: sx.guo@siat.ac.cn</p>
+    <p><a href="http://120.232.253.167:8001/xjy-mh-view/#/home">中国科学院深圳先进技术研究院空间信息研究中心</a></p>
+    
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
