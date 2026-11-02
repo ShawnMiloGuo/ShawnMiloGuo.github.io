@@ -51,7 +51,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-基于时空融合的modis产品降尺度模型-以海表叶绿素为例",
+        },{id: "post-isprs-高光谱影像重建出来后-ai帮你判断哪些地方值得信任",
+      
+        title: "ISPRS ｜高光谱影像重建出来后，AI帮你判断哪些地方值得信任？",
+      
+      description: "光谱超分辨模型根据多光谱观测预测高光谱影像，重建光谱因此是模型的预测结果。即使整体精度较高，地物边界、建筑屋顶或特定波段仍可能出现偏差。实际应用中通常缺少可逐点核对的真实高光谱影像，因此有必要回答：哪些重建结果更可靠，哪些需要重点复核？",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/BaysSSR/";
+        
+      },
+    },{id: "post-ieee-tci-两台相机的光谱-语言-不通-如何重建高光谱影像",
+      
+        title: "IEEE TCI｜两台相机的光谱“语言”不通，如何重建高光谱影像？",
+      
+      description: "近日，中国科学院深圳先进技术研究院空间信息研究中心 陈劲松、郭善昕团队的论文“Physical Degradation-Guided Deep Unfolding for Blind Cross-Sensor Spectral Super-Resolution” 发表于计算成像领域专业期刊《IEEE Transactions on Computational Imaging》（中科院二区）。该研究提出了一种全新的物理退化引导的深度光谱展开网络 PGU-Net，可将高光谱重建过程与跨传感器光谱转换关系估计在同一框架中完成。",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/PGU-NET/";
+        
+      },
+    },{id: "post-基于时空融合的modis产品降尺度模型-以海表叶绿素为例",
       
         title: "基于时空融合的MODIS产品降尺度模型-以海表叶绿素为例",
       
